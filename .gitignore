@@ -1,0 +1,35 @@
+# User exclusions
+/docs/
+/notes/
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Environments & secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Data, indices, and OCR cache
+data/processed/
+*.jsonl
+qdrant_storage/
+ocr_cache/
+.cache/
