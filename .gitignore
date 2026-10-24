@@ -29,7 +29,9 @@ dist/
 
 # Data, indices, and OCR cache
 data/processed/
+data/page_images/
 *.jsonl
 qdrant_storage/
 ocr_cache/
 .cache/
+.data/
