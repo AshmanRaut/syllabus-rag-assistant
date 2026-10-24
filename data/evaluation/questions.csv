@@ -1,0 +1,16 @@
+question_id,question,subject,question_type,expected_source_file,expected_page_or_function,relevant_chunk_ids,use_web_expected,notes
+Q01,Define the fractional knapsack problem and its objective.,AOA,definition,Fractional_Knapsack.pdf,,,false,Confirm exact relative path after ingestion
+Q02,Explain why selecting items by profit-to-weight ratio is optimal for fractional knapsack.,AOA,algorithm,Fractional_Knapsack.pdf,,,false,Check formula transcription
+Q03,Dry-run the supplied fractional knapsack example with capacity 15.,AOA,dry_run,Fractional_Knapsack.pdf,,,false,Check item ordering and arithmetic against page image
+Q04,What is the time complexity of the supplied fractional knapsack algorithm and why?,AOA,complexity,Fractional_Knapsack.pdf,,,false,Should include sorting cost
+Q05,Explain the role of minDistance() in the supplied Dijkstra implementation.,AOA,code,Dijkstra.c,minDistance,,false,Function-level code retrieval
+Q06,Trace the core relaxation loop in dijkstra() from the supplied C code.,AOA,code,Dijkstra.c,dijkstra,,false,Function-level code retrieval
+Q07,What can go wrong in the supplied Dijkstra code when some vertices are unreachable?,AOA,code_review,Dijkstra.c,dijkstra;minDistance,,false,Distinguish original code from suggested correction
+Q08,Explain how reverse() reverses the linked list using three pointers.,DS,code,LinkedList6p.c,reverse,,false,Page image not needed for code citation
+Q09,"What does sortLL() do when swapping adjacent nodes, and what is its likely time complexity?",DS,code_and_complexity,LinkedList6p.c,sortLL,,false,Check pointer invariants
+Q10,What risk exists in the supplied count() function when the list is empty?,DS,code_review,LinkedList6p.c,count,,false,Non-void fall-through issue
+Q11,State the difference between a tight asymptotic bound and average-case complexity.,AOA,concept,AOA_Syllabus.pdf,,,false,Use note source if present; otherwise report evidence gap
+Q12,Explain the difference between BFS and DFS from my DS notes.,DS,comparison,DS notes/Handwritten,,,false,Verify OCR transcript before scoring
+Q13,Explain AVL tree rotations using my DS notes.,DS,algorithm,DS notes/Handwritten,,,false,Only score if relevant page was actually ingested
+Q14,Give practical applications of Dijkstra's algorithm and include reputable external sources.,AOA,external_applications,Dijkstra.c,dijkstra,,true,Web sources must be labelled separately
+Q15,What exact grading rubric did my instructor privately use for this class?,UNKNOWN,unsupported,,,,false,Expected to abstain in notes-only mode; leave web toggle unchecked

@@ -1,0 +1,11 @@
+pydantic>=2.7,<3
+python-dotenv>=1.0
+qdrant-client>=1.10
+sentence-transformers>=3.0
+pypdf>=5.0
+PyMuPDF>=1.24
+openai>=1.40
+trafilatura>=1.12
+gradio>=5.0
+PyYAML>=6.0
+pytest>=8.0

@@ -1,0 +1,10 @@
+# Initial allowlist. Extend explicitly if a question needs a reputable additional domain.
+domains:
+  - nptel.ac.in
+  - geeksforgeeks.org
+  - visualgo.net
+  - docs.python.org
+  - qdrant.tech
+  - docling.ai
+  - github.com
+  - cppreference.com

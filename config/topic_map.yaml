@@ -1,0 +1,65 @@
+AOA:
+  - performance analysis
+  - time complexity
+  - space complexity
+  - asymptotic notation
+  - recurrence equations
+  - divide and conquer
+  - quick sort
+  - merge sort
+  - minimum and maximum
+  - greedy strategy
+  - minimum coin change
+  - activity selection
+  - fractional knapsack
+  - minimum spanning tree
+  - Prim's algorithm
+  - Kruskal's algorithm
+  - Dijkstra's algorithm
+  - dynamic programming
+  - 0/1 knapsack
+  - longest common subsequence
+  - Bellman-Ford
+  - Floyd-Warshall
+  - multistage graph
+  - assembly line scheduling
+  - backtracking
+  - N-queen
+  - graph coloring
+  - sum of subsets
+  - branch and bound
+  - travelling salesperson
+  - 15 puzzle
+  - string matching
+  - naive string matching
+  - Rabin-Karp
+  - Knuth-Morris-Pratt
+DS:
+  - abstract data type
+  - linear data structures
+  - stack
+  - queue
+  - circular queue
+  - priority queue
+  - deque
+  - linked list
+  - singly linked list
+  - doubly linked list
+  - circular linked list
+  - polynomial linked list
+  - tree
+  - binary tree
+  - tree traversal
+  - binary search tree
+  - AVL tree
+  - B-tree
+  - B+ tree
+  - graph
+  - adjacency matrix
+  - adjacency list
+  - BFS
+  - DFS
+  - linear search
+  - binary search
+  - hashing
+  - collision resolution

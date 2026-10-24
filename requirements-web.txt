@@ -1,0 +1,3 @@
+# Install alongside requirements.txt to enable both provider options.
+tavily-python>=0.5
+ddgs>=9.0

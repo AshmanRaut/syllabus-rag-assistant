@@ -1,0 +1,2 @@
+# Optional: use when typed PDF extraction from pypdf mangles reading order, tables, or equations.
+docling>=2.0

@@ -1,0 +1,4 @@
+# Optional environment only. Install/test separately to avoid destabilising the main app.
+# Follow the current PaddleOCR-VL hardware-specific official guide before installation.
+# Apple Silicon guide: https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/version3.x/pipeline_usage/PaddleOCR-VL-Apple-Silicon.en.md
+paddleocr[doc-parser]
