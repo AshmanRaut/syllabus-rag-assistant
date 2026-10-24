@@ -9,7 +9,7 @@ load_dotenv()
 
 @dataclass(frozen=True)
 class Settings:
-    source_root: Path = Path(os.getenv("SOURCE_ROOT", "./materials"))
+    source_root: Path = Path(os.getenv("SOURCE_ROOT", "./notes"))
     qdrant_url: str = os.getenv("QDRANT_URL", "http://localhost:6333").strip()
     qdrant_api_key: str | None = os.getenv("QDRANT_API_KEY") or None
     qdrant_collection: str = os.getenv("QDRANT_COLLECTION", "course_chunks")
