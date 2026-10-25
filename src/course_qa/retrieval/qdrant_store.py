@@ -1,23 +1,51 @@
 from __future__ import annotations
+import logging
 from pathlib import Path
 from typing import Sequence
 from qdrant_client import QdrantClient, models
 from ..config import settings
 from ..schemas import SourceChunk, RetrievedChunk
 
+logger = logging.getLogger(__name__)
+
 class QdrantDenseStore:
     """Dense vector store in Qdrant. The app-level BM25 retriever is fused with this result set by RRF."""
-    def __init__(self, vector_size: int):
-        if settings.qdrant_url:
-            self.client = QdrantClient(url=settings.qdrant_url, api_key=settings.qdrant_api_key)
+    def __init__(self, vector_size: int, client: QdrantClient | None = None, collection: str | None = None):
+        self.collection = collection or settings.qdrant_collection
+        if client is not None:
+            self.client = client
+            names = {c.name for c in self.client.get_collections().collections}
+        elif settings.qdrant_url:
+            try:
+                self.client = QdrantClient(url=settings.qdrant_url, api_key=settings.qdrant_api_key, timeout=2.0)
+                names = {c.name for c in self.client.get_collections().collections}
+            except Exception as exc:
+                logger.warning(
+                    "Failed to connect to Qdrant at %s (%s); falling back to embedded local mode at %s",
+                    settings.qdrant_url,
+                    exc,
+                    settings.qdrant_local_path,
+                )
+                settings.qdrant_local_path.mkdir(parents=True, exist_ok=True)
+                self.client = QdrantClient(path=str(settings.qdrant_local_path))
+                names = {c.name for c in self.client.get_collections().collections}
         else:
             settings.qdrant_local_path.mkdir(parents=True, exist_ok=True)
             self.client = QdrantClient(path=str(settings.qdrant_local_path))
-        self.collection = settings.qdrant_collection
-        names = {c.name for c in self.client.get_collections().collections}
+            names = {c.name for c in self.client.get_collections().collections}
+
         if self.collection not in names:
-            self.client.create_collection(collection_name=self.collection,
-                vectors_config=models.VectorParams(size=vector_size, distance=models.Distance.COSINE))
+            self.client.create_collection(
+                collection_name=self.collection,
+                vectors_config=models.VectorParams(size=vector_size, distance=models.Distance.COSINE),
+            )
+
+    def close(self) -> None:
+        """Close the underlying client connection (releases locks in embedded mode)."""
+        try:
+            self.client.close()
+        except Exception:
+            pass
 
     def upsert(self, chunks: Sequence[SourceChunk], vectors: Sequence[list[float]], batch_size: int = 64) -> int:
         if len(chunks) != len(vectors):

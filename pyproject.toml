@@ -7,6 +7,31 @@ name = "syllabus-rag-assistant"
 version = "0.1.0"
 description = "Syllabus-aware DS/AoA NLP question answering with Qdrant hybrid retrieval and source-grounded generation"
 requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+    "pypdf>=4.0",
+    "pymupdf>=1.24",
+    "sentence-transformers>=2.7",
+    "qdrant-client>=1.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov",
+]
+ocr = [
+    "paddleocr>=3.0",
+]
+web = [
+    "tavily-python>=0.5",
+    "ddgs>=9.0",
+    "trafilatura>=1.12",
+]
+docling = [
+    "docling",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -14,6 +39,9 @@ where = ["src"]
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+markers = [
+    "qdrant: tests that require a running or embedded Qdrant instance",
+]
 
 [tool.ruff]
 line-length = 100
