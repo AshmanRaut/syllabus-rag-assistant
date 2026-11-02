@@ -68,8 +68,18 @@ def ingest_all(*, resume: bool = True, max_ocr_pages: int | None = None) -> tupl
                     c = SourceChunk.model_validate_json(line); existing[c.chunk_id] = c
                 except Exception: pass
     existing.update({c.chunk_id: c for c in all_chunks})
-    from ..retrieval.hybrid import save_chunks
-    save_chunks(list(existing.values()), settings.chunks_jsonl)
+    # Import from Module B's retrieval layer; fall back to an inline writer if unavailable.
+    try:
+        from ..retrieval.hybrid import save_chunks as _save_chunks
+    except Exception:
+        def _save_chunks(chunks: list, path: Path) -> None:  # type: ignore[misc]
+            path.parent.mkdir(parents=True, exist_ok=True)
+            temp = path.with_suffix(path.suffix + ".tmp")
+            with temp.open("w", encoding="utf-8") as fh:
+                for c in chunks:
+                    fh.write(c.model_dump_json() + "\n")
+            temp.replace(path)
+    _save_chunks(list(existing.values()), settings.chunks_jsonl)
     report.chunks_written = len(existing)
     # Manifest is authoritative for page-level OCR statuses; these are page-level counts.
     if settings.source_manifest.exists():
