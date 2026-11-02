@@ -61,7 +61,9 @@ The app can also use Qdrant's persistent local client by leaving `QDRANT_URL` bl
 
 ## Environment
 
-Copy `.env.example` to `.env`. The app must work with web search disabled and without an OCR provider. The generator uses an adapter interface: configure an OpenAI-compatible endpoint, or implement a provider adapter for the model/API you have access to. Having Claude Opus in Antigravity does not by itself imply API credentials for the app.
+Copy `.env.example` to `.env`. For a complete, field-by-field configuration guide covering Gemini, Groq, Ollama, and OpenAI setup, see [`docs/ENV_SETUP_GUIDE.md`](docs/ENV_SETUP_GUIDE.md).
+
+The app works with web search disabled and without an OCR provider. The generator uses an adapter interface: configure an OpenAI-compatible endpoint, or leave `LLM_MODEL=` blank to run in offline mock mode without any API keys.
 
 ## Shared contracts and ownership
 

@@ -8,13 +8,25 @@ logger = logging.getLogger(__name__)
 
 WEB_SIGNAL_WORDS = (
     "real-world application",
+    "real world",
+    "real-world",
     "applications",
+    "application",
     "compare",
     "comparison",
+    "versus",
+    "vs",
     "latest",
+    "recent",
     "current",
+    "modern",
     "industry use",
+    "industry",
     "practical use",
+    "practical",
+    "external",
+    "web",
+    "online",
 )
 
 

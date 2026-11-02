@@ -1,0 +1,1887 @@
+{
+  "summary": {
+    "total_questions": 15,
+    "total_answerable": 14,
+    "hit_at_1_count": 2,
+    "hit_at_1_rate": 0.14285714285714285,
+    "hit_at_3_count": 8,
+    "hit_at_3_rate": 0.5714285714285714,
+    "hit_at_5_count": 11,
+    "hit_at_5_rate": 0.7857142857142857,
+    "mean_reciprocal_rank": 0.3630952380952381,
+    "citation_validity_rate": 1.0,
+    "abstention_accuracy_rate": 0.9333333333333333
+  },
+  "results": [
+    {
+      "question_id": "Q01",
+      "question": "Define the fractional knapsack problem and its objective.",
+      "subject": "AOA",
+      "question_type": "definition",
+      "expected_source": "Fractional_Knapsack.pdf",
+      "expected_element": "",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0325,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "b352d0dc-519f-5ecf-927e-88cd843655a3",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0325,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "58317393-d8d5-51d6-b4a1-8779c65fb62d",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.031,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "e800b507-d3fe-54bb-ba0e-a3c5c341dc4c",
+          "source_file": "aoa_notes/Typed/0_1_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0301,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "2c2a479d-027a-5abd-a075-faa435cd5e23",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0159,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "matched_rank": 1,
+      "matched_chunk_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb",
+      "matched_source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+      "answer_preview": "[Mock answer for: 'Define the fractional knapsack problem and its objective.']\nBased on course material for AOA, the fol...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "Fractional_Knapsack.pdf \u00b7 page 1",
+          "image_path": "data/page_images/9098009bf3d8/page_0001.png",
+          "source_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 10,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 10",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0010.png",
+          "source_id": "b352d0dc-519f-5ecf-927e-88cd843655a3"
+        },
+        {
+          "label": "S3",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 10,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 10",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0010.png",
+          "source_id": "58317393-d8d5-51d6-b4a1-8779c65fb62d"
+        },
+        {
+          "label": "S4",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/0_1_Knapsack.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "0_1_Knapsack.pdf \u00b7 page 1",
+          "image_path": "data/page_images/2e5f1f7aabc3/page_0001.png",
+          "source_id": "e800b507-d3fe-54bb-ba0e-a3c5c341dc4c"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "page_number": 4,
+          "function_name": null,
+          "url": null,
+          "title": "Fractional_Knapsack.pdf \u00b7 page 4",
+          "image_path": "data/page_images/9098009bf3d8/page_0004.png",
+          "source_id": "2c2a479d-027a-5abd-a075-faa435cd5e23"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q02",
+      "question": "Explain why selecting items by profit-to-weight ratio is optimal for fractional knapsack.",
+      "subject": "AOA",
+      "question_type": "algorithm",
+      "expected_source": "Fractional_Knapsack.pdf",
+      "expected_element": "",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "1f038d58-8c02-5799-801d-918cda66b485",
+          "source_file": "aoa_notes/End_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.032,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "b352d0dc-519f-5ecf-927e-88cd843655a3",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0318,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "6b3b5937-089e-52cf-b176-34c38ea2ae0b",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0308,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "ce4d1e46-3b65-5bf3-8332-fc7ceb76aff5",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0305,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "e800b507-d3fe-54bb-ba0e-a3c5c341dc4c",
+          "source_file": "aoa_notes/Typed/0_1_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0303,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.3333333333333333,
+      "matched_rank": 3,
+      "matched_chunk_id": "6b3b5937-089e-52cf-b176-34c38ea2ae0b",
+      "matched_source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+      "answer_preview": "[Mock answer for: 'Explain why selecting items by profit-to-weight ratio is optimal for fractional knapsack.']\nBased on ...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/End_Semester_Exam.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "End_Semester_Exam.pdf \u00b7 page 1",
+          "image_path": "data/page_images/82d4883ab97c/page_0001.png",
+          "source_id": "1f038d58-8c02-5799-801d-918cda66b485"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 10,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 10",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0010.png",
+          "source_id": "b352d0dc-519f-5ecf-927e-88cd843655a3"
+        },
+        {
+          "label": "S3",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "page_number": 6,
+          "function_name": null,
+          "url": null,
+          "title": "Fractional_Knapsack.pdf \u00b7 page 6",
+          "image_path": "data/page_images/9098009bf3d8/page_0006.png",
+          "source_id": "6b3b5937-089e-52cf-b176-34c38ea2ae0b"
+        },
+        {
+          "label": "S4",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "page_number": 5,
+          "function_name": null,
+          "url": null,
+          "title": "Fractional_Knapsack.pdf \u00b7 page 5",
+          "image_path": "data/page_images/9098009bf3d8/page_0005.png",
+          "source_id": "ce4d1e46-3b65-5bf3-8332-fc7ceb76aff5"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/0_1_Knapsack.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "0_1_Knapsack.pdf \u00b7 page 1",
+          "image_path": "data/page_images/2e5f1f7aabc3/page_0001.png",
+          "source_id": "e800b507-d3fe-54bb-ba0e-a3c5c341dc4c"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q03",
+      "question": "Dry-run the supplied fractional knapsack example with capacity 15.",
+      "subject": "AOA",
+      "question_type": "dry_run",
+      "expected_source": "Fractional_Knapsack.pdf",
+      "expected_element": "",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0325,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "b352d0dc-519f-5ecf-927e-88cd843655a3",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0313,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "58317393-d8d5-51d6-b4a1-8779c65fb62d",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0308,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "2c2a479d-027a-5abd-a075-faa435cd5e23",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0306,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "e800b507-d3fe-54bb-ba0e-a3c5c341dc4c",
+          "source_file": "aoa_notes/Typed/0_1_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0299,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "matched_rank": 1,
+      "matched_chunk_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb",
+      "matched_source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+      "answer_preview": "[Mock answer for: 'Dry-run the supplied fractional knapsack example with capacity 15.']\nBased on course material for AOA...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "Fractional_Knapsack.pdf \u00b7 page 1",
+          "image_path": "data/page_images/9098009bf3d8/page_0001.png",
+          "source_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 10,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 10",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0010.png",
+          "source_id": "b352d0dc-519f-5ecf-927e-88cd843655a3"
+        },
+        {
+          "label": "S3",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 10,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 10",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0010.png",
+          "source_id": "58317393-d8d5-51d6-b4a1-8779c65fb62d"
+        },
+        {
+          "label": "S4",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "page_number": 4,
+          "function_name": null,
+          "url": null,
+          "title": "Fractional_Knapsack.pdf \u00b7 page 4",
+          "image_path": "data/page_images/9098009bf3d8/page_0004.png",
+          "source_id": "2c2a479d-027a-5abd-a075-faa435cd5e23"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/0_1_Knapsack.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "0_1_Knapsack.pdf \u00b7 page 1",
+          "image_path": "data/page_images/2e5f1f7aabc3/page_0001.png",
+          "source_id": "e800b507-d3fe-54bb-ba0e-a3c5c341dc4c"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q04",
+      "question": "What is the time complexity of the supplied fractional knapsack algorithm and why?",
+      "subject": "AOA",
+      "question_type": "complexity",
+      "expected_source": "Fractional_Knapsack.pdf",
+      "expected_element": "",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "b352d0dc-519f-5ecf-927e-88cd843655a3",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0315,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "58317393-d8d5-51d6-b4a1-8779c65fb62d",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0313,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0308,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "2c2a479d-027a-5abd-a075-faa435cd5e23",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "0cb9a704-0db7-5ade-b7b9-e1c3cc87d03e",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.3333333333333333,
+      "matched_rank": 3,
+      "matched_chunk_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb",
+      "matched_source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+      "answer_preview": "[Mock answer for: 'What is the time complexity of the supplied fractional knapsack algorithm and why?']\nBased on course ...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 10,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 10",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0010.png",
+          "source_id": "b352d0dc-519f-5ecf-927e-88cd843655a3"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 10,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 10",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0010.png",
+          "source_id": "58317393-d8d5-51d6-b4a1-8779c65fb62d"
+        },
+        {
+          "label": "S3",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "Fractional_Knapsack.pdf \u00b7 page 1",
+          "image_path": "data/page_images/9098009bf3d8/page_0001.png",
+          "source_id": "3af24aea-6ddb-59af-acb9-00e9a073fabb"
+        },
+        {
+          "label": "S4",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Fractional_Knapsack.pdf",
+          "page_number": 4,
+          "function_name": null,
+          "url": null,
+          "title": "Fractional_Knapsack.pdf \u00b7 page 4",
+          "image_path": "data/page_images/9098009bf3d8/page_0004.png",
+          "source_id": "2c2a479d-027a-5abd-a075-faa435cd5e23"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 12,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 12",
+          "image_path": "data/page_images/e6302fb075ff/page_0012.png",
+          "source_id": "0cb9a704-0db7-5ade-b7b9-e1c3cc87d03e"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q05",
+      "question": "Explain the role of minDistance() in the supplied Dijkstra implementation.",
+      "subject": "AOA",
+      "question_type": "code",
+      "expected_source": "Dijkstra.c",
+      "expected_element": "minDistance",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "80d52cdc-c0da-5ab7-a048-ff57959d4960",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0301,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "e74699a4-89ca-5abf-a755-aa7086baac2a",
+          "source_file": "aoa_codes/Dijkstra.c",
+          "function_name": "dijkstra",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "5042a6ae-72c5-5c7a-b000-5834be05e13b",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "7b471acb-56ad-55a4-8183-820ffa5a6be0",
+          "source_file": "aoa_notes/End_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "715c4acc-f960-5fc9-855c-75b7b4daa454",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0161,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5,
+      "matched_rank": 2,
+      "matched_chunk_id": "e74699a4-89ca-5abf-a755-aa7086baac2a",
+      "matched_source_file": "aoa_codes/Dijkstra.c",
+      "answer_preview": "[Mock answer for: 'Explain the role of minDistance() in the supplied Dijkstra implementation.']\nBased on course material...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 3,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 3",
+          "image_path": "data/page_images/e6302fb075ff/page_0003.png",
+          "source_id": "80d52cdc-c0da-5ab7-a048-ff57959d4960"
+        },
+        {
+          "label": "S2",
+          "source_kind": "code",
+          "source_file": "aoa_codes/Dijkstra.c",
+          "page_number": null,
+          "function_name": "dijkstra",
+          "url": null,
+          "title": "Dijkstra.c::dijkstra",
+          "image_path": null,
+          "source_id": "e74699a4-89ca-5abf-a755-aa7086baac2a"
+        },
+        {
+          "label": "S3",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 11,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 11",
+          "image_path": "data/page_images/e6302fb075ff/page_0011.png",
+          "source_id": "5042a6ae-72c5-5c7a-b000-5834be05e13b"
+        },
+        {
+          "label": "S4",
+          "source_kind": "note",
+          "source_file": "aoa_notes/End_Semester_Exam.pdf",
+          "page_number": 4,
+          "function_name": null,
+          "url": null,
+          "title": "End_Semester_Exam.pdf \u00b7 page 4",
+          "image_path": "data/page_images/82d4883ab97c/page_0004.png",
+          "source_id": "7b471acb-56ad-55a4-8183-820ffa5a6be0"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 11,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 11",
+          "image_path": "data/page_images/e6302fb075ff/page_0011.png",
+          "source_id": "715c4acc-f960-5fc9-855c-75b7b4daa454"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q06",
+      "question": "Trace the core relaxation loop in dijkstra() from the supplied C code.",
+      "subject": "AOA",
+      "question_type": "code",
+      "expected_source": "Dijkstra.c",
+      "expected_element": "dijkstra",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "7b471acb-56ad-55a4-8183-820ffa5a6be0",
+          "source_file": "aoa_notes/End_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.032,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "c5877897-5405-5960-97b4-3e71c357ff01",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "function_name": null,
+          "score": 0.0313,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "1aa882e7-b16b-5f07-8596-0430771b7e74",
+          "source_file": "aoa_notes/End_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0299,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07",
+          "source_file": "aoa_codes/Dijkstra.c",
+          "function_name": "main",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "80d52cdc-c0da-5ab7-a048-ff57959d4960",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.25,
+      "matched_rank": 4,
+      "matched_chunk_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07",
+      "matched_source_file": "aoa_codes/Dijkstra.c",
+      "answer_preview": "[Mock answer for: 'Trace the core relaxation loop in dijkstra() from the supplied C code.']\nBased on course material for...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/End_Semester_Exam.pdf",
+          "page_number": 4,
+          "function_name": null,
+          "url": null,
+          "title": "End_Semester_Exam.pdf \u00b7 page 4",
+          "image_path": "data/page_images/82d4883ab97c/page_0004.png",
+          "source_id": "7b471acb-56ad-55a4-8183-820ffa5a6be0"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "page_number": 7,
+          "function_name": null,
+          "url": null,
+          "title": "Dijkstra_Algorithm.pdf \u00b7 page 7",
+          "image_path": "data/page_images/2cd15de3f593/page_0007.png",
+          "source_id": "c5877897-5405-5960-97b4-3e71c357ff01"
+        },
+        {
+          "label": "S3",
+          "source_kind": "note",
+          "source_file": "aoa_notes/End_Semester_Exam.pdf",
+          "page_number": 7,
+          "function_name": null,
+          "url": null,
+          "title": "End_Semester_Exam.pdf \u00b7 page 7",
+          "image_path": "data/page_images/82d4883ab97c/page_0007.png",
+          "source_id": "1aa882e7-b16b-5f07-8596-0430771b7e74"
+        },
+        {
+          "label": "S4",
+          "source_kind": "code",
+          "source_file": "aoa_codes/Dijkstra.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "Dijkstra.c::main",
+          "image_path": null,
+          "source_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 3,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 3",
+          "image_path": "data/page_images/e6302fb075ff/page_0003.png",
+          "source_id": "80d52cdc-c0da-5ab7-a048-ff57959d4960"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q07",
+      "question": "What can go wrong in the supplied Dijkstra code when some vertices are unreachable?",
+      "subject": "AOA",
+      "question_type": "code_review",
+      "expected_source": "Dijkstra.c",
+      "expected_element": "dijkstra;minDistance",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "7ec16b42-8334-587e-96f4-c5aebefc0a54",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "function_name": null,
+          "score": 0.0306,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "e005082a-1d51-5a24-882c-f732ba22d4ea",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "c8b01633-6278-5abf-ba77-54b408ad0935",
+          "source_file": "aoa_notes/Typed/Bellman_Ford.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07",
+          "source_file": "aoa_codes/Dijkstra.c",
+          "function_name": "main",
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "c25665de-d765-5212-bd3a-1c749630eece",
+          "source_file": "aoa_notes/Typed/Negative_Weights_In_Graph.pdf",
+          "function_name": null,
+          "score": 0.0161,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.25,
+      "matched_rank": 4,
+      "matched_chunk_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07",
+      "matched_source_file": "aoa_codes/Dijkstra.c",
+      "answer_preview": "[Mock answer for: 'What can go wrong in the supplied Dijkstra code when some vertices are unreachable?']\nBased on course...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "Dijkstra_Algorithm.pdf \u00b7 page 1",
+          "image_path": "data/page_images/2cd15de3f593/page_0001.png",
+          "source_id": "7ec16b42-8334-587e-96f4-c5aebefc0a54"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "page_number": 3,
+          "function_name": null,
+          "url": null,
+          "title": "Dijkstra_Algorithm.pdf \u00b7 page 3",
+          "image_path": "data/page_images/2cd15de3f593/page_0003.png",
+          "source_id": "e005082a-1d51-5a24-882c-f732ba22d4ea"
+        },
+        {
+          "label": "S3",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Bellman_Ford.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "Bellman_Ford.pdf \u00b7 page 1",
+          "image_path": "data/page_images/98b322477044/page_0001.png",
+          "source_id": "c8b01633-6278-5abf-ba77-54b408ad0935"
+        },
+        {
+          "label": "S4",
+          "source_kind": "code",
+          "source_file": "aoa_codes/Dijkstra.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "Dijkstra.c::main",
+          "image_path": null,
+          "source_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Negative_Weights_In_Graph.pdf",
+          "page_number": 2,
+          "function_name": null,
+          "url": null,
+          "title": "Negative_Weights_In_Graph.pdf \u00b7 page 2",
+          "image_path": "data/page_images/efec5be57da2/page_0002.png",
+          "source_id": "c25665de-d765-5212-bd3a-1c749630eece"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q08",
+      "question": "Explain how reverse() reverses the linked list using three pointers.",
+      "subject": "DS",
+      "question_type": "code",
+      "expected_source": "LinkedList6p.c",
+      "expected_element": "reverse",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "de3b9019-4dcc-5862-bcd8-521937cd0cd8",
+          "source_file": "ds_codes/LinkedList6pValueSwapping.c",
+          "function_name": "reverse",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "2d87670f-883b-59a2-a18d-0c90ef21393a",
+          "source_file": "ds_codes/LinkedList6.c",
+          "function_name": "main",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "0f6357e4-290d-5cea-bee2-49edd70df9dc",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "function_name": "reverse",
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "b5442e75-52f1-5fde-894f-531ad323e183",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "function_name": "main",
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "0906a7c6-50fd-56af-9028-2cd385e1baa7",
+          "source_file": "ds_codes/LinkedList5p.c",
+          "function_name": "reverse",
+          "score": 0.0159,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.3333333333333333,
+      "matched_rank": 3,
+      "matched_chunk_id": "0f6357e4-290d-5cea-bee2-49edd70df9dc",
+      "matched_source_file": "ds_codes/LinkedList6p.c",
+      "answer_preview": "[Mock answer for: 'Explain how reverse() reverses the linked list using three pointers.']\nBased on course material for D...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6pValueSwapping.c",
+          "page_number": null,
+          "function_name": "reverse",
+          "url": null,
+          "title": "LinkedList6pValueSwapping.c::reverse",
+          "image_path": null,
+          "source_id": "de3b9019-4dcc-5862-bcd8-521937cd0cd8"
+        },
+        {
+          "label": "S2",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "LinkedList6.c::main",
+          "image_path": null,
+          "source_id": "2d87670f-883b-59a2-a18d-0c90ef21393a"
+        },
+        {
+          "label": "S3",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "page_number": null,
+          "function_name": "reverse",
+          "url": null,
+          "title": "LinkedList6p.c::reverse",
+          "image_path": null,
+          "source_id": "0f6357e4-290d-5cea-bee2-49edd70df9dc"
+        },
+        {
+          "label": "S4",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "LinkedList6p.c::main",
+          "image_path": null,
+          "source_id": "b5442e75-52f1-5fde-894f-531ad323e183"
+        },
+        {
+          "label": "S5",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList5p.c",
+          "page_number": null,
+          "function_name": "reverse",
+          "url": null,
+          "title": "LinkedList5p.c::reverse",
+          "image_path": null,
+          "source_id": "0906a7c6-50fd-56af-9028-2cd385e1baa7"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q09",
+      "question": "What does sortLL() do when swapping adjacent nodes, and what is its likely time complexity?",
+      "subject": "DS",
+      "question_type": "code_and_complexity",
+      "expected_source": "LinkedList6p.c",
+      "expected_element": "sortLL",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "b5442e75-52f1-5fde-894f-531ad323e183",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "function_name": "main",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "bf34efc2-3416-5999-b957-616c1f113f82",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "function_name": "main",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "846e6ee0-6382-5339-b65c-e1181316103f",
+          "source_file": "ds_codes/LinkedList6pValueSwapping.c",
+          "function_name": "main",
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "c61d8db0-e06e-5021-851a-bd2b0089aaa1",
+          "source_file": "ds_codes/LinkedList6pValueSwapping.c",
+          "function_name": "main",
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "2d87670f-883b-59a2-a18d-0c90ef21393a",
+          "source_file": "ds_codes/LinkedList6.c",
+          "function_name": "main",
+          "score": 0.0159,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5,
+      "matched_rank": 2,
+      "matched_chunk_id": "bf34efc2-3416-5999-b957-616c1f113f82",
+      "matched_source_file": "ds_codes/LinkedList6p.c",
+      "answer_preview": "[Mock answer for: 'What does sortLL() do when swapping adjacent nodes, and what is its likely time complexity?']\nBased o...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "LinkedList6p.c::main",
+          "image_path": null,
+          "source_id": "b5442e75-52f1-5fde-894f-531ad323e183"
+        },
+        {
+          "label": "S2",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "LinkedList6p.c::main",
+          "image_path": null,
+          "source_id": "bf34efc2-3416-5999-b957-616c1f113f82"
+        },
+        {
+          "label": "S3",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6pValueSwapping.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "LinkedList6pValueSwapping.c::main",
+          "image_path": null,
+          "source_id": "846e6ee0-6382-5339-b65c-e1181316103f"
+        },
+        {
+          "label": "S4",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6pValueSwapping.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "LinkedList6pValueSwapping.c::main",
+          "image_path": null,
+          "source_id": "c61d8db0-e06e-5021-851a-bd2b0089aaa1"
+        },
+        {
+          "label": "S5",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "LinkedList6.c::main",
+          "image_path": null,
+          "source_id": "2d87670f-883b-59a2-a18d-0c90ef21393a"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q10",
+      "question": "What risk exists in the supplied count() function when the list is empty?",
+      "subject": "DS",
+      "question_type": "code_review",
+      "expected_source": "LinkedList6p.c",
+      "expected_element": "count",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "a06944ea-1b0c-54e7-bf0e-dfdbee71d956",
+          "source_file": "ds_codes/LinkedList5.c",
+          "function_name": "count",
+          "score": 0.0325,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "8e0060fe-7281-5590-a506-5a82c4baf9df",
+          "source_file": "ds_codes/LinkedList6.c",
+          "function_name": "count",
+          "score": 0.0323,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "bcf58a5e-345b-54f0-8b09-bc2edfb75969",
+          "source_file": "ds_codes/LinkedList5p.c",
+          "function_name": "count",
+          "score": 0.0318,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "9ad67e38-d238-516b-bf98-4d18557a716f",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "function_name": "count",
+          "score": 0.0315,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "dcca9267-6125-597f-99ba-42d5086ba205",
+          "source_file": "ds_codes/LinkedList6pValueSwapping.c",
+          "function_name": "count",
+          "score": 0.0308,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.25,
+      "matched_rank": 4,
+      "matched_chunk_id": "9ad67e38-d238-516b-bf98-4d18557a716f",
+      "matched_source_file": "ds_codes/LinkedList6p.c",
+      "answer_preview": "[Mock answer for: 'What risk exists in the supplied count() function when the list is empty?']\nBased on course material ...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList5.c",
+          "page_number": null,
+          "function_name": "count",
+          "url": null,
+          "title": "LinkedList5.c::count",
+          "image_path": null,
+          "source_id": "a06944ea-1b0c-54e7-bf0e-dfdbee71d956"
+        },
+        {
+          "label": "S2",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6.c",
+          "page_number": null,
+          "function_name": "count",
+          "url": null,
+          "title": "LinkedList6.c::count",
+          "image_path": null,
+          "source_id": "8e0060fe-7281-5590-a506-5a82c4baf9df"
+        },
+        {
+          "label": "S3",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList5p.c",
+          "page_number": null,
+          "function_name": "count",
+          "url": null,
+          "title": "LinkedList5p.c::count",
+          "image_path": null,
+          "source_id": "bcf58a5e-345b-54f0-8b09-bc2edfb75969"
+        },
+        {
+          "label": "S4",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6p.c",
+          "page_number": null,
+          "function_name": "count",
+          "url": null,
+          "title": "LinkedList6p.c::count",
+          "image_path": null,
+          "source_id": "9ad67e38-d238-516b-bf98-4d18557a716f"
+        },
+        {
+          "label": "S5",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6pValueSwapping.c",
+          "page_number": null,
+          "function_name": "count",
+          "url": null,
+          "title": "LinkedList6pValueSwapping.c::count",
+          "image_path": null,
+          "source_id": "dcca9267-6125-597f-99ba-42d5086ba205"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q11",
+      "question": "State the difference between a tight asymptotic bound and average-case complexity.",
+      "subject": "AOA",
+      "question_type": "concept",
+      "expected_source": "AOA_Syllabus.pdf",
+      "expected_element": "",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "8fdd8622-7048-521c-a826-b579f4fda590",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0315,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "e1046d87-cdab-5b73-9cb8-18e5d82479fb",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0313,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "0cb9a704-0db7-5ade-b7b9-e1c3cc87d03e",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0311,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "a38ee0d7-4a25-5158-bd27-0d7370a925b1",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "c5877897-5405-5960-97b4-3e71c357ff01",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "function_name": null,
+          "score": 0.0159,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0,
+      "matched_rank": null,
+      "matched_chunk_id": null,
+      "matched_source_file": null,
+      "answer_preview": "[Mock answer for: 'State the difference between a tight asymptotic bound and average-case complexity.']\nBased on course ...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 12,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 12",
+          "image_path": "data/page_images/e6302fb075ff/page_0012.png",
+          "source_id": "8fdd8622-7048-521c-a826-b579f4fda590"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 3,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 3",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0003.png",
+          "source_id": "e1046d87-cdab-5b73-9cb8-18e5d82479fb"
+        },
+        {
+          "label": "S3",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 12,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 12",
+          "image_path": "data/page_images/e6302fb075ff/page_0012.png",
+          "source_id": "0cb9a704-0db7-5ade-b7b9-e1c3cc87d03e"
+        },
+        {
+          "label": "S4",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 6,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 6",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0006.png",
+          "source_id": "a38ee0d7-4a25-5158-bd27-0d7370a925b1"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "page_number": 7,
+          "function_name": null,
+          "url": null,
+          "title": "Dijkstra_Algorithm.pdf \u00b7 page 7",
+          "image_path": "data/page_images/2cd15de3f593/page_0007.png",
+          "source_id": "c5877897-5405-5960-97b4-3e71c357ff01"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q12",
+      "question": "Explain the difference between BFS and DFS from my DS notes.",
+      "subject": "DS",
+      "question_type": "comparison",
+      "expected_source": "DS notes/Handwritten",
+      "expected_element": "",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "5aec71ad-5c14-5a5e-a092-bf42d9c605e8",
+          "source_file": "ds_codes/BinarySearchTree.c",
+          "function_name": "Delete",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "88705d72-b9e6-58ce-9ebc-057d9243f6eb",
+          "source_file": "ds_codes/QueueUsingStack.c",
+          "function_name": "main",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "31b67233-444d-5ed1-8548-2bf276e86914",
+          "source_file": "ds_codes/LinkedList6.c",
+          "function_name": "copyLL",
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "972f1e9b-c745-5028-a643-5a60908038a6",
+          "source_file": "ds_codes/stack.c",
+          "function_name": "main",
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "88ede567-9e82-52a9-9e62-ab1156fb3e5e",
+          "source_file": "ds_codes/LinkedList5.c",
+          "function_name": "insertBegin",
+          "score": 0.0159,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0,
+      "matched_rank": null,
+      "matched_chunk_id": null,
+      "matched_source_file": null,
+      "answer_preview": "[Mock answer for: 'Explain the difference between BFS and DFS from my DS notes.']\nBased on course material for DS, the f...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "code",
+          "source_file": "ds_codes/BinarySearchTree.c",
+          "page_number": null,
+          "function_name": "Delete",
+          "url": null,
+          "title": "BinarySearchTree.c::Delete",
+          "image_path": null,
+          "source_id": "5aec71ad-5c14-5a5e-a092-bf42d9c605e8"
+        },
+        {
+          "label": "S2",
+          "source_kind": "code",
+          "source_file": "ds_codes/QueueUsingStack.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "QueueUsingStack.c::main",
+          "image_path": null,
+          "source_id": "88705d72-b9e6-58ce-9ebc-057d9243f6eb"
+        },
+        {
+          "label": "S3",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList6.c",
+          "page_number": null,
+          "function_name": "copyLL",
+          "url": null,
+          "title": "LinkedList6.c::copyLL",
+          "image_path": null,
+          "source_id": "31b67233-444d-5ed1-8548-2bf276e86914"
+        },
+        {
+          "label": "S4",
+          "source_kind": "code",
+          "source_file": "ds_codes/stack.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "stack.c::main",
+          "image_path": null,
+          "source_id": "972f1e9b-c745-5028-a643-5a60908038a6"
+        },
+        {
+          "label": "S5",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList5.c",
+          "page_number": null,
+          "function_name": "insertBegin",
+          "url": null,
+          "title": "LinkedList5.c::insertBegin",
+          "image_path": null,
+          "source_id": "88ede567-9e82-52a9-9e62-ab1156fb3e5e"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q13",
+      "question": "Explain AVL tree rotations using my DS notes.",
+      "subject": "DS",
+      "question_type": "algorithm",
+      "expected_source": "DS notes/Handwritten",
+      "expected_element": "",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "06113c19-aff7-5713-8cd0-b0aba7e569cd",
+          "source_file": "ds_codes/BinarySearchTree.c",
+          "function_name": "CountLeafNodes",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "e4cf0796-acfb-52ff-b6c9-fcd85bce6513",
+          "source_file": "ds_codes/BinaryTree.c",
+          "function_name": "main",
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "37ffd16a-dde9-523e-9bfd-b35e2c23df3c",
+          "source_file": "ds_codes/BinarySearchTree.c",
+          "function_name": "Inorder",
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "32d619ca-d24e-51ef-85c5-1839867288bf",
+          "source_file": "ds_codes/BinaryTree.c",
+          "function_name": "Inorder",
+          "score": 0.0159,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "1414152b-a5e4-5d50-965f-5104edaebc4f",
+          "source_file": "ds_codes/LinkedList5.c",
+          "function_name": "reverse",
+          "score": 0.0156,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0,
+      "matched_rank": null,
+      "matched_chunk_id": null,
+      "matched_source_file": null,
+      "answer_preview": "[Mock answer for: 'Explain AVL tree rotations using my DS notes.']\nBased on course material for DS, the following eviden...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "code",
+          "source_file": "ds_codes/BinarySearchTree.c",
+          "page_number": null,
+          "function_name": "CountLeafNodes",
+          "url": null,
+          "title": "BinarySearchTree.c::CountLeafNodes",
+          "image_path": null,
+          "source_id": "06113c19-aff7-5713-8cd0-b0aba7e569cd"
+        },
+        {
+          "label": "S2",
+          "source_kind": "code",
+          "source_file": "ds_codes/BinaryTree.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "BinaryTree.c::main",
+          "image_path": null,
+          "source_id": "e4cf0796-acfb-52ff-b6c9-fcd85bce6513"
+        },
+        {
+          "label": "S3",
+          "source_kind": "code",
+          "source_file": "ds_codes/BinarySearchTree.c",
+          "page_number": null,
+          "function_name": "Inorder",
+          "url": null,
+          "title": "BinarySearchTree.c::Inorder",
+          "image_path": null,
+          "source_id": "37ffd16a-dde9-523e-9bfd-b35e2c23df3c"
+        },
+        {
+          "label": "S4",
+          "source_kind": "code",
+          "source_file": "ds_codes/BinaryTree.c",
+          "page_number": null,
+          "function_name": "Inorder",
+          "url": null,
+          "title": "BinaryTree.c::Inorder",
+          "image_path": null,
+          "source_id": "32d619ca-d24e-51ef-85c5-1839867288bf"
+        },
+        {
+          "label": "S5",
+          "source_kind": "code",
+          "source_file": "ds_codes/LinkedList5.c",
+          "page_number": null,
+          "function_name": "reverse",
+          "url": null,
+          "title": "LinkedList5.c::reverse",
+          "image_path": null,
+          "source_id": "1414152b-a5e4-5d50-965f-5104edaebc4f"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": false
+    },
+    {
+      "question_id": "Q14",
+      "question": "Give practical applications of Dijkstra's algorithm and include reputable external sources.",
+      "subject": "AOA",
+      "question_type": "external_applications",
+      "expected_source": "Dijkstra.c",
+      "expected_element": "dijkstra",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "6f6b1e97-b057-562b-8bec-659b98fdc89b",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "function_name": null,
+          "score": 0.0313,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "80d52cdc-c0da-5ab7-a048-ff57959d4960",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0313,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07",
+          "source_file": "aoa_codes/Dijkstra.c",
+          "function_name": "main",
+          "score": 0.0303,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "294c28de-6406-5f1f-87ec-4ea035729d64",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "5042a6ae-72c5-5c7a-b000-5834be05e13b",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.3333333333333333,
+      "matched_rank": 3,
+      "matched_chunk_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07",
+      "matched_source_file": "aoa_codes/Dijkstra.c",
+      "answer_preview": "[Mock answer for: \"Give practical applications of Dijkstra's algorithm and include reputable external sources.\"]\nBased o...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "page_number": 10,
+          "function_name": null,
+          "url": null,
+          "title": "Dijkstra_Algorithm.pdf \u00b7 page 10",
+          "image_path": "data/page_images/2cd15de3f593/page_0010.png",
+          "source_id": "6f6b1e97-b057-562b-8bec-659b98fdc89b"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 3,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 3",
+          "image_path": "data/page_images/e6302fb075ff/page_0003.png",
+          "source_id": "80d52cdc-c0da-5ab7-a048-ff57959d4960"
+        },
+        {
+          "label": "S3",
+          "source_kind": "code",
+          "source_file": "aoa_codes/Dijkstra.c",
+          "page_number": null,
+          "function_name": "main",
+          "url": null,
+          "title": "Dijkstra.c::main",
+          "image_path": null,
+          "source_id": "d26d3d99-5689-5111-9ec8-47c0c4041e07"
+        },
+        {
+          "label": "S4",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Dijkstra_Algorithm.pdf",
+          "page_number": 9,
+          "function_name": null,
+          "url": null,
+          "title": "Dijkstra_Algorithm.pdf \u00b7 page 9",
+          "image_path": "data/page_images/2cd15de3f593/page_0009.png",
+          "source_id": "294c28de-6406-5f1f-87ec-4ea035729d64"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Practice_Questions.pdf",
+          "page_number": 11,
+          "function_name": null,
+          "url": null,
+          "title": "Practice_Questions.pdf \u00b7 page 11",
+          "image_path": "data/page_images/e6302fb075ff/page_0011.png",
+          "source_id": "5042a6ae-72c5-5c7a-b000-5834be05e13b"
+        },
+        {
+          "label": "S6",
+          "source_kind": "web",
+          "source_file": null,
+          "page_number": null,
+          "function_name": null,
+          "url": "https://www.geeksforgeeks.org/dsa/applications-of-dijkstras-shortest-path-algorithm/",
+          "title": "Applications of Dijkstra's shortest path algorithm",
+          "image_path": null,
+          "source_id": "web_daef03f5c6979a5a"
+        },
+        {
+          "label": "S7",
+          "source_kind": "web",
+          "source_file": null,
+          "page_number": null,
+          "function_name": null,
+          "url": "https://www.geeksforgeeks.org/dsa/widest-path-problem-practical-application-of-dijkstras-algorithm/",
+          "title": "Widest Path Problem | Practical application of Dijkstra's ...",
+          "image_path": null,
+          "source_id": "web_d2a6e13289fb4e69"
+        },
+        {
+          "label": "S8",
+          "source_kind": "web",
+          "source_file": null,
+          "page_number": null,
+          "function_name": null,
+          "url": "https://github.com/a113ssa/algorithms-and-their-applications/blob/main/resources/dijkstra-algorithm.md",
+          "title": "algorithms-and-their-applications/resources/dijkstra ... - GitHub",
+          "image_path": null,
+          "source_id": "web_eca388c6089376e3"
+        },
+        {
+          "label": "S9",
+          "source_kind": "web",
+          "source_file": null,
+          "page_number": null,
+          "function_name": null,
+          "url": "https://github.com/joaomiguelvieira/ISTravel",
+          "title": "GitHub - joaomiguelvieira/ISTravel: Practical application of ...",
+          "image_path": null,
+          "source_id": "web_5342b4b200ecb224"
+        },
+        {
+          "label": "S10",
+          "source_kind": "web",
+          "source_file": null,
+          "page_number": null,
+          "function_name": null,
+          "url": "https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/",
+          "title": "Dijkstra's Algorithm - GeeksforGeeks",
+          "image_path": null,
+          "source_id": "web_1f45ba25ca9b3a31"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 5,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true,
+      "use_web": true
+    },
+    {
+      "question_id": "Q15",
+      "question": "What exact grading rubric did my instructor privately use for this class?",
+      "subject": "UNKNOWN",
+      "question_type": "unsupported",
+      "expected_source": "",
+      "expected_element": "",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "bb3db98c-74c7-51f7-9b83-6d045381a9ca",
+          "source_file": "syllabus/AOA_Syllabus.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "3dfaf645-4645-551e-b3c9-cd1f4f0fa563",
+          "source_file": "aoa_notes/Typed/Dynamic_Programming.pdf",
+          "function_name": null,
+          "score": 0.0164,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "5b8ae30b-8206-5c1c-99fa-e97cf7dc6836",
+          "source_file": "syllabus/DS_Syllabus.pdf",
+          "function_name": null,
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "89fe630c-e807-565e-a27c-9e87fe65d56a",
+          "source_file": "aoa_notes/Typed/N_Queen_problem.pdf",
+          "function_name": null,
+          "score": 0.0161,
+          "channel": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "3dd0ed17-797b-5c0d-80e0-e3df83bf3ec8",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "function_name": null,
+          "score": 0.0159,
+          "channel": "hybrid"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0,
+      "matched_rank": null,
+      "matched_chunk_id": null,
+      "matched_source_file": null,
+      "answer_preview": "[Mock answer for: 'What exact grading rubric did my instructor privately use for this class?']\nBased on course material ...",
+      "citations": [
+        {
+          "label": "S1",
+          "source_kind": "syllabus",
+          "source_file": "syllabus/AOA_Syllabus.pdf",
+          "page_number": 2,
+          "function_name": null,
+          "url": null,
+          "title": "AOA_Syllabus.pdf \u00b7 page 2",
+          "image_path": "data/page_images/81d3f04af9a7/page_0002.png",
+          "source_id": "bb3db98c-74c7-51f7-9b83-6d045381a9ca"
+        },
+        {
+          "label": "S2",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/Dynamic_Programming.pdf",
+          "page_number": 14,
+          "function_name": null,
+          "url": null,
+          "title": "Dynamic_Programming.pdf \u00b7 page 14",
+          "image_path": "data/page_images/f897dfc821d2/page_0014.png",
+          "source_id": "3dfaf645-4645-551e-b3c9-cd1f4f0fa563"
+        },
+        {
+          "label": "S3",
+          "source_kind": "syllabus",
+          "source_file": "syllabus/DS_Syllabus.pdf",
+          "page_number": 2,
+          "function_name": null,
+          "url": null,
+          "title": "DS_Syllabus.pdf \u00b7 page 2",
+          "image_path": "data/page_images/c5490372d2d5/page_0002.png",
+          "source_id": "5b8ae30b-8206-5c1c-99fa-e97cf7dc6836"
+        },
+        {
+          "label": "S4",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Typed/N_Queen_problem.pdf",
+          "page_number": 7,
+          "function_name": null,
+          "url": null,
+          "title": "N_Queen_problem.pdf \u00b7 page 7",
+          "image_path": "data/page_images/af63a159a318/page_0007.png",
+          "source_id": "89fe630c-e807-565e-a27c-9e87fe65d56a"
+        },
+        {
+          "label": "S5",
+          "source_kind": "note",
+          "source_file": "aoa_notes/Mid_Semester_Exam.pdf",
+          "page_number": 1,
+          "function_name": null,
+          "url": null,
+          "title": "Mid_Semester_Exam.pdf \u00b7 page 1",
+          "image_path": "data/page_images/0dc7b12a9ceb/page_0001.png",
+          "source_id": "3dd0ed17-797b-5c0d-80e0-e3df83bf3ec8"
+        }
+      ],
+      "notes_used": 5,
+      "web_used": 0,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": false,
+      "use_web": false
+    }
+  ]
+}

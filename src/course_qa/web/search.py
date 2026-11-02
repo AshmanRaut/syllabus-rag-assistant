@@ -39,10 +39,23 @@ class WebSearch:
             except Exception:
                 if mode == "tavily": raise
         if not rows and mode in {"auto", "ddgs"}:
-            from ddgs import DDGS
-            domain_query = " OR ".join(f"site:{d}" for d in domains)
-            search_query = f"{query} ({domain_query})"
-            rows = list(DDGS().text(search_query, max_results=max_results))
+            try:
+                from ddgs import DDGS
+            except ImportError:
+                from duckduckgo_search import DDGS  # type: ignore[no-redef]
+            try:
+                domain_query = " OR ".join(f"site:{d}" for d in domains[:4])
+                search_query = f"{query} ({domain_query})"
+                rows = list(DDGS().text(search_query, max_results=max_results))
+            except Exception:
+                rows = []
+            if not rows:
+                try:
+                    # Fallback to direct query and allowlist-filter results in-process
+                    raw = list(DDGS().text(query, max_results=max_results * 2))
+                    rows = [r for r in raw if _in_allowlist(str(r.get("url") or r.get("href") or ""), domains)]
+                except Exception:
+                    rows = []
         results: list[WebSource] = []
         now = datetime.now(timezone.utc).isoformat()
         for row in rows:

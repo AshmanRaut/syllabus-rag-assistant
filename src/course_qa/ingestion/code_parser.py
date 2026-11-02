@@ -48,7 +48,16 @@ def parse_code_file(file: DiscoveredFile) -> list[SourceChunk]:
     functions = extract_c_functions(text)
     chunks: list[SourceChunk] = []
     if not functions:
-        return chunks_for_text(text, file, title=path.name)
+        return chunks_for_text(text, file, title=path.name, max_chars=4000, overlap=200)
+
+    # Capture preamble (typedefs, structs, defines) if present
+    first_match = FUNCTION_START.search(text)
+    if first_match and first_match.start() > 0:
+        preamble = text[:first_match.start()].strip()
+        if preamble and any(kw in preamble for kw in ("struct", "typedef", "#define")):
+            chunks.extend(chunks_for_text(preamble, file, function_name="declarations", title=f"{path.name}::declarations", max_chars=4000, overlap=200))
+
     for name, body in functions:
-        chunks.extend(chunks_for_text(body, file, function_name=name, title=f"{path.name}::{name}"))
+        # Keep entire function intact up to 4000 chars without sub-splitting
+        chunks.extend(chunks_for_text(body, file, function_name=name, title=f"{path.name}::{name}", max_chars=4000, overlap=200))
     return chunks

@@ -40,10 +40,11 @@ def split_text(text: str, max_chars: int = 1100, overlap: int = 160) -> list[str
 
 def chunks_for_text(text: str, file: DiscoveredFile, *, page_number: int | None = None,
                     function_name: str | None = None, title: str | None = None,
-                    image_path: str | None = None, ocr_status: str = "not_needed") -> list[SourceChunk]:
+                    image_path: str | None = None, ocr_status: str = "not_needed",
+                    max_chars: int = 1100, overlap: int = 160) -> list[SourceChunk]:
     source_hash = sha256_text(file.relative_path)
     out = []
-    for i, part in enumerate(split_text(text)):
+    for i, part in enumerate(split_text(text, max_chars=max_chars, overlap=overlap)):
         content_hash = sha256_text(part)
         stable = str(uuid.uuid5(NAMESPACE, f"{file.relative_path}|{page_number}|{function_name}|{i}|{content_hash}"))
         out.append(SourceChunk(
